@@ -19,7 +19,13 @@ ul.nav {
   position: fixed;
 }
 
-div.col-sm-9 div {
+div.col-md-9 div {
+  font size: 28px;
+  padding: 10px;
+  margin: 10px;
+}
+
+div.col-md-4 div {
   font size: 28px;
   padding: 10px;
   margin: 10px;
