@@ -6727,7 +6727,7 @@ button.close {
   td.visible-print {
     display: table-cell !important;
   }
-}
+
 .visible-print-block {
   display: none !important;
 }
