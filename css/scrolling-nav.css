@@ -36,7 +36,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #111;
-    color: #eee;
+    color: #888;
 }
 
 .about-section {
@@ -44,6 +44,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #333;
+    color:#999
 }
 
 .assignments-section {
@@ -51,13 +52,15 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #666;
+    color:#222;
 }
 
 .projects-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #999
+    background: #999;
+    color: #222;
 }
 
 .contact-section {
@@ -65,4 +68,5 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #eee;
+    color: #222;
 }
