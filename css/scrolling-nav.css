@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+/* body {
     width: 100%;
     height: 100%;
 }
@@ -12,11 +12,11 @@ body {
 html {
     width: 100%;
     height: 100%;
-}
+} */
 
 @media(min-width:767px) {
     .navbar {
-        padding: 10px 0;
+        padding: 25px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -32,40 +32,45 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 100%;
-    padding-top: 100px;
+    /*height: 100%; */
+    padding-top: 150px;
+    padding-bottom: 150px;
     text-align: center;
     background: #111;
     color: #888;
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 50px;
+    /* height: 100%; */
+    padding-top: 150px;
+    padding-bottom: 150px;
     text-align: center;
     background: #333;
     color:#999
 }
 
 .assignments-section {
-    height: 100%;
-    padding-top: 50px;
+    /* height: 100%; */
+    padding-top: 150px;
+    padding-bottom: 150px;
     text-align: center;
     background: #666;
     color:#222;
 }
 
 .projects-section {
-    height: 100%;
-    padding-top: 50px;
+    /* height: 100%; */
+    padding-top: 150px;
+    padding-bottom: 150px;
     text-align: center;
     background: #999;
     color: #222;
 }
 
 .contact-section {
-    height: 100%;
+    /* height: 100%; */
     padding-top: 150px;
+    padding-bottom: 150px;
     text-align: center;
     background: #eee;
     color: #222;
