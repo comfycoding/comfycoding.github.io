@@ -86,6 +86,9 @@ sub {
 img {
   border: 0;
   border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+  width: auto;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -6761,5 +6764,7 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 
 .roundimage {
-    border-radius = 15px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
 }
