@@ -1,0 +1,49 @@
+pre {
+  display: block;
+  font-family: monospace;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #908781;
+  border-radius: 10px;
+  background-color: #ffa667;
+}
+
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+  background-color: #ff8c3a;
+}
+
+img {
+  border: 1px solid black;
+  max-width: 650px;
+}
+
+div.wrapper {
+  background-color: #ffffff;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 3%;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #3f5143;
+}
+
+h2, h3 {
+  color: #386861;
+}
+
+p {
+  color: #908781;
+}
+
+a:link, a:visited {
+  color: #28a090;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #908781;
+  text-decoration: underline;
+}

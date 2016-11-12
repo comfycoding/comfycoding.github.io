@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Etsy API How-To - Building Your App</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="top">
+      <h1>Building an Application</h1>
+    </div>
+    <div class="content">
+      <h2>Architecture of an Application using the Etsy API</h2>
+      <p>In the case of the Etsy API, the first thing that we need will be contained in the &lt;head&gt; tag in order to use jQuery:
+      <pre><xmp><script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script></xmp></pre>
+      </p>
+
+      <p>Then, another &lt;script&gt; tag handles the rest of the functionality. Since right now our application is mostly static, as there are no searches being made by the user that will trigger an event, the script will have an outer shell that will look like this:
+<pre><xmp>(function($){
+  $(document).ready(function(){
+
+    // API calls will go here!
+
+  });
+})(jQuery);</xmp></pre>
+      </p>
+
+      <p>The first two lines within the inner function are necessary in order to connect to the API:
+<pre><xmp>api_key = "YOUR-API-KEY";
+terms = $('#etsy-terms').val();</xmp></pre></p>
+      <p>In the case of this example, I will be using the keystring yytys7tcm73htzzb4f7npm70. You should go ahead and use your own! We will not be using the shared secret key.</p>
+    </div> <!-- end content -->
+  </div> <!-- end wrapper -->
+
+</body>
+</html>
