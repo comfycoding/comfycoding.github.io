@@ -1,31 +1,58 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Comfy Coding on Jekyll
-email: dzouras@gmail.com
-description: Getting comfortable as a newbie blogger!
-baseurl: "/jekyll" # the subpath of your site, e.g. /blog
-url: "http://darzouras.me" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: darzouras
-github_username:  darzouras
+# SEO settings
+title: "Darlene Zouras - Comfy Coding v2"
+title2: "" # default: ""
+description: "Just another minimalist Jekyll theme that focuses on technical writing."
+keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
+url: http://darzouras.me # site url
+baseurl: /blog # apply null if repo name is something like username.github.io
+
+google_analytics: UA-XXXXX-XX
+repo: http://github.com/heiswayi/thinkspace
+disqus_shortname: "heiswayi"
+twitter_username: "darzouras"
+comments: true
 
 # Build settings
-markdown: kramdown
-theme: minima
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Darlene Zouras"
+  job      : "Newbie Developer"
+  bio      : "Artist, Educator, and Developer."
+  thumb    : null
+  email    : dzouras@gmail.com
+  url      : http://darzouras.me
+  github   : http://github.com/darzouras
+  twitter  : http://twitter.com/darzouras
+  facebook : https://www.facebook.com/darlene.zouras
+  linkedin : http://linkedin.com/in/darlenezouras
+
+# social settings
+og_locale: "en_US"
+twitter_card: "summary_large_image"
+twitter_site: "@darzouras"
+
 gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
