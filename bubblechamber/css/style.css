@@ -1,0 +1,43 @@
+table.colorpicker {
+    width: 120px;
+}
+
+tr.colorpicker {
+    padding: 0px;
+}
+
+td.colorpicker {
+    height: 15px;
+    padding: 0px;
+}
+
+div.wrapper {
+    width: 100%;
+    margin: 15px;
+    overflow: hidden;
+    display: block;
+}
+
+div.left {
+    padding-left: 25px;
+    padding-top: 50px;
+    display: inline-block;
+    float: left;
+}
+
+div.right {
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+}
+
+td.sizepicker, td.opacitypicker, td.shapepicker {
+  padding: 2px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+td.sizepicker:hover, td.opacitypicker:hover, td.shapepicker:hover {
+    background-color: #f8f9f9;
+}
