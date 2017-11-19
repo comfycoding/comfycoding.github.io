@@ -1,7 +1,5 @@
 $(document).ready(function() {
-    console.log('hello')
-    $('nav').hover(function() {
-        console.log('hi');
+    $('nav').click(function() {
         $('#nav-hide').slideToggle();
     })
 });

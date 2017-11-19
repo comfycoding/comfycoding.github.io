@@ -32,7 +32,7 @@ time, mark, audio, video {
 
 body {
     font-family: 'PT Sans';
-    font-size: 16pt;
+    font-size: 14pt;
     background-color: #FC3A52;
     color: #0E2431;
 }
@@ -52,9 +52,31 @@ a:hover {
 
 h1, h2, h3 {
     font-family: 'VT323';
-    font-weight: bold;
     letter-spacing: 1px;
     font-size: 1.7em;
+    padding-bottom: 15px;
+}
+
+p {
+    font-size: .75em;
+    padding-bottom: 15px;
+}
+
+.font-small {
+    font-size: .7em;
+}
+
+.mobile-responsive {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width:900px) {
+    .mobile-responsive {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
 }
 
 /***** Navigation *****/
@@ -81,8 +103,38 @@ nav {
     display: none;
 }
 
+/***** Footer, social *****/
+.page-footer {
+    font-family: 'VT323';
+    background: #0E2431;
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+.page-footer-container {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.page-footer a {
+    text-decoration: none;
+}
+
 /***** Page Sections *****/
 .page-header {
     background: #E8D587;
-    padding: 10px 10%;
+    padding: 10px 0px;
+}
+
+.page-content-container {
+    width: 80%;
+    margin: auto;
+}
+
+@media (min-width:900px) {
+    .page-content-container {
+        max-width: 800px;
+    }
 }
