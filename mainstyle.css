@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	list-style: none;
 }
 
 /***** Color Reference *****/
@@ -38,7 +39,7 @@ body {
 }
 
 main {
-    margin-top: 75px;
+    margin: 75px 0px 150px;
 }
 
 a {
@@ -55,6 +56,10 @@ h1, h2, h3 {
     letter-spacing: 1px;
     font-size: 1.7em;
     padding-bottom: 15px;
+}
+
+h3 {
+	text-decoration: underline;
 }
 
 p {
@@ -105,10 +110,13 @@ nav {
 
 /***** Footer, social *****/
 .page-footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
     font-family: 'VT323';
     background: #0E2431;
     font-size: 1.5em;
-    margin-top: 30px;
+	width: 100%;
 }
 
 .page-footer-container {
@@ -126,6 +134,23 @@ nav {
 .page-header {
     background: #E8D587;
     padding: 10px 0px;
+	margin-bottom: 25px;
+}
+
+.page-content {
+	background: #E8D587;
+	padding: 0px 0px 10px;
+	margin: 10px 0px 15px;
+}
+
+.page-content-title-container {
+	background: #F9B428;
+	padding: 10px 0px 0px;
+}
+
+.page-content-title {
+	width: 80%;
+	margin: auto;
 }
 
 .page-content-container {
@@ -133,7 +158,14 @@ nav {
     margin: auto;
 }
 
+.page-content .page-content-container {
+	padding-top: 10px;
+}
+
 @media (min-width:900px) {
+	.page-content-title {
+		max-width: 800px;
+	}
     .page-content-container {
         max-width: 800px;
     }
