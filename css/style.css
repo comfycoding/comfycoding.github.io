@@ -1131,3 +1131,6 @@ pre .javascript .function {
   margin-right: 5px;
   display: inline-block;
 }
+#main {
+  margin-bottom: 150px;
+}
