@@ -159,10 +159,7 @@ body {
 #container {
   position: relative;
   margin-top: 50px;
-  margin-bottom: 115px;
-}
-.mobile-nav-on {
-  overflow: hidden;
+  padding-bottom: 150px;
 }
 .widget-title {
   text-decoration: none;
@@ -1130,7 +1127,4 @@ pre .javascript .function {
 .tagcloud a {
   margin-right: 5px;
   display: inline-block;
-}
-#main {
-  margin-bottom: 150px;
 }
