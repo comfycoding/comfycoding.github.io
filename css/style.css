@@ -286,6 +286,14 @@ body {
   background: #f9b428;
   padding: 0 5px;
 }
+.page-header h3 {
+  font: 1.5em 'VT323', "Times New Roman", serif;
+  padding: 10px 0 5px;
+  border-bottom: 2px #f9b428 solid;
+}
+.page-header strong {
+  font-weight: bold;
+}
 .page-header p {
   margin: 15px 0;
 }
